@@ -11,7 +11,7 @@
   <img src="assets/dataset_overview/mammogram_sample_01.jpg" style="width:180px; height:180px; object-fit:cover;">
   <img src="assets/dataset_overview/mammogram_sample_02.jpg" style="width:180px; height:180px; object-fit:cover;">
   <img src="assets/dataset_overview/mammogram_sample_04.png" style="width:180px; height:180px; object-fit:cover;">
-  <img src="assets/dataset_overview/mammogram_sample_05.jpg" style="width:180px; height:180px; object-fit:cover;">
+  <img src="assets/dataset_overview/mammogram_sample_06.jpg" style="width:180px; height:180px; object-fit:cover;">
 </p>
 
 <br>
