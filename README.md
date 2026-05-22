@@ -8,11 +8,11 @@
 <br>
 
 <p align="center">
-  <img src="assets/dataset_overview/mammogram_sample_01.jpg" width="18%">
-  <img src="assets/dataset_overview/mammogram_sample_02.jpg" width="18%">
-  <img src="assets/dataset_overview/mammogram_sample_03.png" width="18%">
-  <img src="assets/dataset_overview/mammogram_sample_04.png" width="18%">
-  <img src="assets/dataset_overview/mammogram_sample_05.jpg" width="18%">
+  <img src="assets/dataset_overview/mammogram_sample_01.jpg" style="width:180px; height:180px; object-fit:cover;">
+  <img src="assets/dataset_overview/mammogram_sample_02.jpg" style="width:180px; height:180px; object-fit:cover;">
+  <img src="assets/dataset_overview/mammogram_sample_03.png" style="width:180px; height:180px; object-fit:cover;">
+  <img src="assets/dataset_overview/mammogram_sample_04.png" style="width:180px; height:180px; object-fit:cover;">
+  <img src="assets/dataset_overview/mammogram_sample_05.jpg" style="width:180px; height:180px; object-fit:cover;">
 </p>
 
 <br>
@@ -31,7 +31,7 @@
 
 **Vision-Language-Mammography-Detection** explores open-vocabulary lesion grounding in mammography using a vision-language training pipeline built on top of **GroundingDINO**.
 
-Core directions:
+Core research directions include:
 
 - Open-vocabulary mammography detection
 - Vision-language feature alignment
@@ -54,21 +54,6 @@ src/
 ├── training/
 └── utils/
 ```
-
----
-
-## Dataset Preview
-
-<div align="center">
-
-<img src="assets/dataset_overview/mammogram_sample_01.jpg" width="15%">
-<img src="assets/dataset_overview/mammogram_sample_02.jpg" width="15%">
-<img src="assets/dataset_overview/mammogram_sample_03.png" width="15%">
-<img src="assets/dataset_overview/mammogram_sample_04.png" width="15%">
-<img src="assets/dataset_overview/mammogram_sample_05.jpg" width="15%">
-<img src="assets/dataset_overview/mammogram_sample_06.jpg" width="15%">
-
-</div>
 
 ---
 
@@ -106,7 +91,8 @@ cd Vision-Language-Mammography-Detection
 pip install -r requirements.txt
 ```
 
-## Install GroundingDINO
+### Install GroundingDINO
+
 ```bash
 git clone https://github.com/IDEA-Research/GroundingDINO.git
 
@@ -116,7 +102,6 @@ pip install -e .
 
 cd ..
 ```
-
 
 ---
 
